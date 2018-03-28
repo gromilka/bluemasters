@@ -1,0 +1,15 @@
+.flexslider {border: 10px solid #fff;width: 930px;position: relative;margin-bottom: 43px}
+.flexslider .slides > li {height: 320px}
+.slides,.flex-direction-nav{list-style: none;}
+.flex-control-nav {list-style: none;position: absolute;bottom: -39px;left: 50%;margin-left: -47px}
+.flex-control-nav  li {float: left;margin-right: 6px}
+.flex-control-nav  li:last-of-type {margin-right: 0}
+.flex-control-nav  li a {width: 14px;height: 14px;content: "&nbsp;";display: inline-block;border-radius: 50%;background-color: #414b64;text-indent: -9999px;-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-ms-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+transition-duration: 0.4s;cursor: pointer;
+}
+.flex-control-nav  li a:hover {background-color: #4397c3;}
+.shadow-slider {position: absolute;bottom: -51px;}
+.flex-active {background-color: #4397c3 !important}
